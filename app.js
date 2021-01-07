@@ -24,6 +24,3 @@ function checkAge(age) {
     console.log(belowSixteen);
   }
 }
-
-// Exercise 3 Section
-console.log("EXERCISE 3:\n==========\n");
