@@ -4,8 +4,8 @@ console.log("Hello World!\n==========\n");
 console.log("EXERCISE 1:\n==========\n");
 
 function printOdds(count) {
+  if (count < 0) count = count * -1; // BONUS: Accounts for negative count
   for (let i = 0; i <= count; i++) {
-    if (count < 0) count = count * -1; // BONUS: Accounts for negative count
     if (i % 2 != 0) {
       console.log(i);
     }
