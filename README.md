@@ -27,13 +27,13 @@
 - Write a function that receives a name and age, and prints a greeting message to the console using the name.
 
 1. Declare a function named `checkAge` using declaration notation (`function <name>(){...}`)
-2. The function should take in one parameter named `age`
+2. The function should take in two parameter named `userName` & `age`
 3. The function body should:
-   - declare and initialize an `aboveSixteen` local variable with string value: `"You can drive!"`,
-   - declare and initialize an `belowSixteen` local variable with string value: `"Sorry, but you need to wait until you're 16."`,
+   - declare and initialize an `aboveSixteen` local variable with string value: `"Congrats ${name}, you can drive!"`,
+   - declare and initialize an `belowSixteen` local variable with string value: `"Sorry ${userName}, but you need to wait until you're 16."`,
    - an `if/else` statement that determines if the `age` value is below 16,
    - and then `console.log()` the correct message to the console.
-4. BONUS: Remember that paramaters are optional, and no `name` or `age` value could be passed in. Correctly account for no parameter being passed in.
+4. BONUS: Remember that parameters are optional, and no `userName` or `age` value could be passed in. Correctly account for no parameter being passed in.
 
 ## More Practice
 
