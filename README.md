@@ -81,7 +81,7 @@ they’ve run out of data, it should inform them of that too.
 For example, if the user enters `planLimit = 100`, `day = 15`, and `usage = 56`, your program should print
 out something similar to the following.
 
-```sh
+```txt
 15 days used, 15 days remaining
 Average daily use: 3.333 GB/day
 You are EXCEEDING your average daily use (3.73 GB/day),
