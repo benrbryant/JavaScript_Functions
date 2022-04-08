@@ -26,7 +26,7 @@ function checkAge(age, name = "stranger") {
 
 checkAge(21, "Ben");
 checkAge(16, "Renzo");
-checkAge(14);
+checkAge(13);
 
 
 // Exercise 3 Section
